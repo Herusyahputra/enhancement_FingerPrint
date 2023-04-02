@@ -2,8 +2,8 @@ from PIL import Image, ImageEnhance
 import os
 
 # Set the input and output folder paths
-input_folder = "/home/moil-dev002/Downloads/finger_print/dataset/eddy_png/"
-output_folder = "/home/moil-dev002/Downloads/finger_print/dataset/eddy_enhancement/"
+input_folder = "/home/moil-dev002/Downloads/enhancement_FingerPrint/Dataset/eddy_png/"
+output_folder = "/home/moil-dev002/Downloads/enhancement_FingerPrint/Dataset/eddy_enhancement/"
 
 # Get a list of all PNG image files in the input folder
 image_files = [f for f in os.listdir(input_folder) if f.endswith('.png')]
@@ -24,3 +24,4 @@ for image_file in image_files:
 
     # Save the enhanced image as a PNG file
     enhanced_image.save(enhanced_path, 'PNG')
+    print("success convert to enhanced")
