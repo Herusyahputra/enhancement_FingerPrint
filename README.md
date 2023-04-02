@@ -5,32 +5,35 @@ The Enhancement Fingerprint project aims to improve the accuracy and efficiency 
 
 The project also focuses on improving the speed and reliability of fingerprint recognition systems by reducing false positives and false negatives. Additionally, the project aims to develop more robust and reliable fingerprint scanners that can work in various environments and under different conditions.
 
-**How to Install**
+## Dataset Usege
+For testing, you can open Download this dataset [LINK](https://mcut-my.sharepoint.com/:f:/g/personal/m09158023_o365_mcut_edu_tw/EoycrDjRXOZHvuIz6IHNP20BuDkeWDEKhR0ADe7CWS-igA?e=9YNhKt)
 
-Clone repository
-```
-$ git clone https://github.com/Herusyahputra/enhancement_FingerPrint.git
-```
+## How to Install
 
-Change directory
-```
-$ cd enhancement_FingerPrint
-```
+  - Clone repository
+    ```
+    $ git clone https://github.com/Herusyahputra/enhancement_FingerPrint.git
+    ```
 
-Create Virtual Environment
-```
-$ python3.9 -m venv venv
-```
+  - Change directory
+    ```
+    $ cd enhancement_FingerPrint
+    ```
 
-Activate Virtual Environment
-```
-$ source venv/bin/activate
-```
+  - Create Virtual Environment
+    ```
+    $ python3.9 -m venv venv
+    ```
 
-Run the Program
-```
-$ python3 ....py
-```
+  - Activate Virtual Environment
+    ```
+    $ source venv/bin/activate
+    ```
 
-Good Luck
+  - Run the Program
+    ```
+    $ python3 ....py
+    ```
+
+**Good Luck**
 
